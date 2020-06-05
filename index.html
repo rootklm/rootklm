@@ -13,22 +13,40 @@
 				flex-direction: row;
 				align-items: stretch;
 				justify-content: space-between;
+				background-color: black;
+				color: white;
+				font-weight: bold;
 			}
 			.main{
+				display: flex;
+				flex-direction: row;
+				align-items: stretch;
+				justify-content: space-between;
 			}
 			.panel{
+				padding-top: 1em;
+				padding-left: 0.5em;
+				padding-right: 0.5em;
+				padding-bottom: 0.5em;
 			}
 			.left{
+				width: 25%;
+				font-weight: bold;
 			}
 			.right{
+				width: 75%;
 			}
 			.header > .left{
 			}
 			.header > .right{
+				text-align: right;
 			}
 			.main > .left{
+				background-color: #808080;
+				font-size: 1.5em;
 			}
 			.main > .right{
+				background-color: #bfbfbf;
 			}
 		</style>
 	</head>
@@ -142,8 +160,13 @@
 				Links
 			</div>
 			<div class="right panel">
-				<a href="https://github.com/rootklm/rootklm.github.io/raw/master/rootklm.github.io.pdf">Download Here:</a>
-				<img src="https://raw.githubusercontent.com/rootklm/rootklm.github.io/master/qrcode.svg" />
+				<div>
+					<a href="https://github.com/rootklm/rootklm.github.io/raw/master/rootklm.github.io.pdf">Download Here:</a>
+				</div>
+				<br />
+				<div>
+					<img src="https://raw.githubusercontent.com/rootklm/rootklm.github.io/master/qrcode.svg" />
+				</div>
 			</div>
 		</div>
 		<script>
